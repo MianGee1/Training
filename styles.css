@@ -1,4 +1,5 @@
-nav {
+nav
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,53 +8,60 @@ nav {
   font-weight: bolder;
   padding: 10px;
 }
-.h1{
+.h1
+{
   margin-top: 10px;
   color:white;
   height: 2cm;
   width: 2cm;
   margin-bottom: 10px;
 }
-.h2{
+.h2
+{
   margin-top: 10px;
   margin-bottom: 10px;
   color:white;
   height: 2cm;
   width: 2cm;
 }
-.star{
+.star
+{
   color: white;
   padding-bottom: -10px;
   margin-bottom: 10px;
 }
-.text{
+.text
+{
   text-align: center;
   color: white;
   font-weight: bold;
 }
-.align{
+.align
+{
 display: flex;
 height: auto;
 justify-content: center;
 
 }
-
-#head {
+#head
+{
 background-color:cadetblue;
 padding: 10px;
 }
-
-.start {
+.start
+{
   margin-top: 10px;
  text-align: center;
  color:white;
  font-weight: bolder;
 }
-#portfolio{
+#portfolio
+{
   padding: auto;
   background-color: white;
 }
-#img {
+#img
+{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -63,104 +71,117 @@ padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-a:link {
+a:link
+{
   color: white;
   text-decoration: none;
 }
-
-a:visited {
+a:visited
+{
   color: white;
   text-decoration: none;
 }
-
-a:hover {
+a:hover
+{
   color: white;
   text-decoration: none;
 }
-
-a:active {
+a:active
+{
   color:white;
   text-decoration: none;
 }
-#start2 {
+#start2
+{
   margin-top: 10px;
- text-align:center;
- color:darkslategray;
- font-weight: bolder;
+  text-align: center;
+  color: darkslategray;
+  font-weight: bolder;
 }
-.h3{
+.h3
+{
   margin-top: 10px;
-  color:darkslategray;
+  color: darkslategray;
   height: 2cm;
   width: 1.5cm;
   margin-bottom: 10px;
 }
-.h4{
+.h4
+{
   margin-top: 10px;
   margin-bottom: 10px;
-  color:darkslategray;
+  color: darkslategray;
   height: 2cm;
   width: 1.5cm;
 }
-.star2{
+.star2
+{
   font-weight: bold;
   color: darkslategray;
   padding-bottom: -10px;
   margin-bottom: 10px;
 }
-@media only screen and (min-width: 770px) {
-.container1{
- 
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content:space-around;
+@media only screen and (min-width: 770px)
+{
+  .container1
+  {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:space-around;
+  }
 }
-}
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px)
+{
   .container1
   {
     display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 770px) {
-  .input{
-    width: 100%;
-  }
-  }
-  @media only screen and (max-width: 760px) {
-    .input{
+@media only screen and (min-width: 770px)
+{
+  .input
+    {
       width: 100%;
     }
   }
-
-  @media only screen and (min-width: 770px) {
-    .p{
-      display: flex;
-      height: auto;
-      justify-content:space-around;
-      padding: auto;
-      margin-left: 10%;
-      margin-right: 10%;
-
-    }
+@media only screen and (max-width: 760px) {
+  .input
+  {
+    width: 100%;
   }
-  @media only screen and (max-width: 760px) {
-    .p{
-      display: flex;
-      height: auto;
-      flex-direction: column;
-      justify-content:space-around;
-    }
-  }
-
-#contact{
-padding: 10px;
-background-color: white;
-height: auto;
 }
-.img1{
+@media only screen and (min-width: 770px)
+{
+  .p
+  {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    padding: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width: 760px)
+{
+  .p
+  {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+#contact
+{
+  padding: 10px;
+  background-color: white;
+  height: auto;
+}
+.img1
+{
   display: block;
   margin-left: 5%;
   height: 90%;
@@ -168,40 +189,27 @@ height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#about{
-background-color:cadetblue;
-height: auto;
-padding: 10px;
-display:flex ;
-flex-direction: column;
-justify-content: space-between;
-justify-items: center;
-}
-
-
-
-.p1{
-  color: white;
-  /* width: 50%;
-  margin-left: 30%;
-  margin-right: 5%; */
-}
-.p2{
-  color: white;
-  /* width: 50%;
-  margin-right: 20%;
-  margin-left: 5%;*/
-}
-/* .img2
+#about
 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 5em;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
-.btn {
+  background-color:cadetblue;
+  height: auto;
+  padding: 10px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+}
+.p1
+{
+  color: white;
+}
+.p2
+{
+  color: white;
+
+}
+.btn
+{
   background-color: transparent;
   border: 2px solid;
   border-color: white;
@@ -211,61 +219,64 @@ justify-items: center;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  display:block;
+  display: block;
 }
-
-
-#start3 {
+#start3
+{
   margin-top: 10px;
- text-align:center;
- color:darkslategray;
- font-weight: bolder;
+  text-align: center;
+  color:darkslategray;
+  font-weight: bolder;
 }
-.form-center {
+.form-center
+{
   display:flex;
   justify-content: center;
 }
-@media only screen and (min-width: 770px) {
-  .last{
+@media only screen and (min-width: 770px)
+{
+  .last
+  {
     margin-top: 10px;
     padding:10px;
     background-color: rgb(1, 1, 12);
     display: flex;
     height: auto;
-    justify-content:space-between;
-  
-  }
-  }
-  @media only screen and (max-width: 760px) {
-    .last{
-      margin-top: 10px;
-      padding:10px;
-      background-color: rgb(1, 1, 12);
-      display: flex;
-      flex-direction: column;
-      height: auto;
-      justify-content:space-between;
-    
-    }
-  }
+    justify-content: space-between;
 
-
-
-.p3{
+  }
+}
+@media only screen and (max-width: 760px)
+{
+  .last
+  {
+    margin-top: 10px;
+    padding:10px;
+    background-color: rgb(1, 1, 12);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+  }
+}
+.p3
+{
   color: white;
   width: 30%;
   margin-left: 5%;
   margin-right: 5%;
   white-space: nowrap;
 }
-.p4{
+.p4
+{
   color: white;
   width: 30%;
   margin-left: 5%;
   margin-right: 5%;
   white-space: nowrap;
 }
-.p5{
+.p5
+{
   color: white;
   width: 30%;
   margin-left: 5%;
